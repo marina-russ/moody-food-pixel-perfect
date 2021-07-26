@@ -1,0 +1,20 @@
+:root {
+  --yellow-accent: #ffab00;
+  --dark-neutral: #242424;
+  --footer-brown: #483500;
+}
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+Montserrat: Regular 400 / ExtraBold 800 / Black 900
+Lato: Regular 400 / Bold 700 / Black 900
+NOTE: {Lato Bold replaces Lato Medium which was not available on Google Fonts}
+Raleway: Regular 400 / Bold 700
+*/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
