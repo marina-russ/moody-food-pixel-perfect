@@ -13,8 +13,8 @@ Create a pixel-perfect website based off of a .psd file with no additional infor
 5. I used the eyedropper tool to gather all the necessary hex color codes.
 6. I utilized the Ruler tool to determine the margins and padding for various elements. 
 
-
-
+## Preview
+![Design Comp Preview](images/design-comp-preview.jpg)
 
 ### Credits
 The .psd design comp was created by Freepik and is being used under their Premium license.
