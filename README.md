@@ -14,6 +14,7 @@ I started by using Adobe Photoshop to examine the .psd file and collect all the 
 - Run Lighthouse audit to optimize website - resize images and follow any other suggestions from the report.
 - 508 Accessibility? 
 - Test web page on various browser devices and mobile sizes
+- On a real project, confirm that typos are not intentional
 
 ## Gathering Information
 
