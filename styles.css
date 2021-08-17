@@ -9,7 +9,7 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Raleway', sans-serif;
 
 Montserrat: Light 300 / Regular 400 / ExtraBold 800 / Black 900
-Lato: Regular 400 / Bold 700 / Black 900
+Lato: Regular 400 -> now 300 / Bold 700 -> now 400 / Black 900 --> now 700
 NOTE: {Lato Bold replaces Lato Medium which was not available on Google Fonts}
 Raleway: Regular 400 / Bold 700
 */
@@ -148,7 +148,6 @@ nav {
   border: 4px solid #fff;
   background-color: var(--yellow-accent);
   color: #fff;
-
   font-family: Montserrat;
   font-size: 37.5px;
   text-align: right;
@@ -190,6 +189,7 @@ nav {
 
 .group2-text {
   font-family: "Lato";
+  font-weight: 300;
   float: left;
   margin-top: 60px;
   width: 625px;
@@ -242,6 +242,8 @@ nav {
 
 /* ========= GROUP 4 ========= */
 
+/* TODO: SECTION*/
+
 /* ========= GROUP 5 ========= */
 
 .group5 {
@@ -255,7 +257,7 @@ nav {
 }
 
 .concept-header-light {
-  font-style: Lato;
+  font-style: "Lato";
   font-size: 50px;
   font-weight: 400;
 }
@@ -278,7 +280,7 @@ nav {
   display: inline;
   font-style: Raleway;
   font-size: 17px;
-  font-weight: 720;
+  font-weight: 700;
   margin-right: 40px;
 }
 
@@ -287,6 +289,73 @@ nav {
 }
 
 /* ========= GROUP 6 ========= */
+
+.group6 {
+  height: 1205px;
+  background-image: url(/images/group6.png);
+  background-size: cover;
+  font-style: "Lato";
+  font-weight: 300;
+  padding-top: 93px;
+  padding-right: 125px;
+}
+
+.group6 h3 {
+  font-size: 50px;
+  text-align: right;
+  text-transform: uppercase;
+  margin-bottom: 93px;
+}
+
+.group6-content-bkgd {
+  background-color: var(--yellow-accent);
+  height: 624px;
+  width: 536px;
+  margin-right: 0;
+  padding: 100px 53px 58px;
+  margin-left: 775px;
+  margin-bottom: 45px;
+}
+
+.class-header {
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 52px;
+  text-transform: uppercase;
+}
+
+.class-text {
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: lowercase;
+  margin: 30px 0 85px;
+}
+
+.class-price-time {
+  font-size: 42px;
+  font-weight: 300;
+  text-align: right;
+}
+
+.price-bold {
+  font-weight: 700;
+}
+
+.apply-btn {
+  background-color: var(--yellow-accent);
+  color: #fff;
+  font-family: "Lato";
+  font-size: 42px;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+  height: 119px;
+  width: 469px;
+  padding-top: 50px;
+  padding-left: 36px;
+  margin-left: 775px;
+}
 
 /* ========= GROUP 7 ========= */
 
