@@ -14,7 +14,166 @@ NOTE: {Lato Bold replaces Lato Medium which was not available on Google Fonts}
 Raleway: Regular 400 / Bold 700
 */
 
+/* ============================ */
+/* ========== GLOBAL ========== */
+
 body {
-  font-family: 'Montserrat', sans-serif;
+  background-color: var(--dark-neutral);
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  box-sizing: border-box;
+  margin: 0;
 }
+
+div {
+  border: 1px solid green;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.group1,
+.group2,
+.group3,
+.group4,
+.group5,
+.group6,
+.group7,
+.group8 {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+/* =========================== */
+/* ========= GROUP 1 ========= */
+
+.hero {
+  background-image: url("images/group1.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+nav {
+  font-size: 33px;
+}
+
+.logo-box {
+  background-color: var(--yellow-accent);
+  height: 77px;
+  width: 353px;
+  margin-top: 37px;
+  float: left;
+}
+
+.logo-text {
+  margin: 0;
+  padding-top: 12px;
+  padding-right: 36px;
+  text-align: right;
+}
+
+.logo-weight {
+  font-weight: 800;
+}
+
+.navbar {
+  float: right;
+  margin: 57px 240px 0px 0px;
+}
+
+.navbar li {
+  display: inline;
+  margin-left: 75px;
+}
+
+.navbar a:hover {
+  color: var(--yellow-accent);
+}
+
+.hero-banner-bkgd {
+  background-color: var(--yellow-accent);
+  height: 198px;
+  width: 1440px;
+  margin-top: 287px;
+  white-space: no-wrap;
+
+  padding-left: 170px;
+}
+
+.hero-header {
+  text-transform: uppercase;
+}
+
+.hero-h1 {
+  float: left;
+}
+
+.header-heavy {
+  font-weight: 800;
+  font-size: 125px;
+  line-height: 145px;
+}
+
+.header-light {
+  font-weight: 400;
+  font-size: 100px;
+  letter-spacing: 12px;
+  line-height: 100px;
+}
+
+.header-btn {
+  border: 4px solid #fff;
+  background-color: var(--yellow-accent);
+  color: #fff;
+
+  font-family: Montserrat;
+  font-size: 37.5px;
+  text-align: right;
+  text-transform: uppercase;
+  float: right;
+  margin-top: 147px;
+  margin-right: 286px;
+  padding-top: 22px;
+  padding-right: 25px;
+  height: 85px;
+  width: 340px;
+}
+
+/* ========= GROUP 2 ========= */
+
+/* ========= GROUP 3 ========= */
+
+/* ========= GROUP 4 ========= */
+
+/* ========= GROUP 5 ========= */
+
+/* ========= GROUP 6 ========= */
+
+/* ========= GROUP 7 ========= */
+
+/* ========= GROUP 8 ========= */
+
+/* ========= GROUP 9 ========= */
