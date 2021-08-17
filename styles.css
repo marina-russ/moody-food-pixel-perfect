@@ -35,6 +35,10 @@ ul {
   list-style: none;
 }
 
+li {
+  padding: none;
+}
+
 a {
   text-decoration: none;
   color: #fff;
@@ -359,6 +363,38 @@ nav {
 
 /* ========= GROUP 7 ========= */
 
-/* ========= GROUP 8 ========= */
+/* TODO: SECTION*/
 
-/* ========= GROUP 9 ========= */
+/* ========= FOOTER ========= */
+
+footer {
+  background-color: var(--footer-brown);
+  padding: 60px 170px 70px;
+}
+
+footer h5 {
+  font-style: "Raleway";
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+footer .about {
+  font-style: "Lato";
+  font-size: 19px;
+  margin-right: 165px;
+  width: 430px;
+}
+
+.column {
+  float: left;
+}
+
+.footer-link {
+  width: 170px;
+}
+
+.footer ul {
+  padding: 0;
+  padding-inline-start: 0;
+}
