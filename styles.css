@@ -36,7 +36,7 @@ ul {
 }
 
 li {
-  padding: none;
+  padding: 0;
 }
 
 a {
@@ -122,7 +122,7 @@ nav {
   height: 198px;
   width: 1440px;
   margin-top: 287px;
-  white-space: no-wrap;
+  white-space: nowrap;
 
   padding-left: 170px;
 }
@@ -234,7 +234,7 @@ nav {
 }
 
 .group3 p {
-  font-style: "Lato";
+  font-family: "Lato";
   font-size: 16px;
 }
 
@@ -248,6 +248,98 @@ nav {
 
 /* TODO: SECTION*/
 
+.group4-container {
+  height: 1202px;
+  content: "";
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/group4.png);
+  width: 100%;
+}
+
+.menu-logo {
+  font-size: 42px;
+  font-weight: 400;
+  color: var(--yellow-accent);
+  text-transform: lowercase;
+  text-align: center;
+  margin: 104px 0 0 0;
+}
+
+.menu-logo-weight {
+  font-weight: 800;
+}
+
+.menu-header-box {
+  border: 2px solid #fff;
+  margin: 52px 0 92px 260px;
+}
+
+.menu-header {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--yellow-accent);
+  text-transform: uppercase;
+  padding: 21px 0 69px 268px;
+}
+
+.menu {
+  height: 413px;
+  width: 1050px;
+  background-color: var(--yellow-accent);
+  margin: 0 0 0 auto;
+}
+
+.menu-container {
+  padding-left: 40px;
+}
+
+.menu-food-name {
+  font-family: Lato;
+  font-size: 33px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.menu-food-description {
+  font-family: Lato;
+  font-size: 33px;
+  margin: 0;
+}
+
+.menu-price {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 33px;
+}
+
+.menu-legend {
+  border: 2px solid #fff;
+  height: 160px;
+  width: 937px;
+  margin: 50px 245px 55px auto;
+  position: relative;
+  left: -143px;
+}
+
+.legend-list {
+  padding-left: 180px;
+}
+
+.legend-items {
+  font-family: Lato;
+  font-size: 25px;
+  padding-bottom: 16px;
+}
+
+/* --- CSS GRID --- */
+
+.menu-container {
+  display: grid;
+  grid-template-columns: auto 115px 250px;
+  grid-template-rows: repeat(4fr);
+}
+
 /* ========= GROUP 5 ========= */
 
 .group5 {
@@ -255,13 +347,13 @@ nav {
   padding: 105px 0 115px;
 }
 
-.group5 h3 {
+.concept-header {
   color: var(--yellow-accent);
   text-transform: uppercase;
 }
 
 .concept-header-light {
-  font-style: "Lato";
+  font-family: "Lato";
   font-size: 50px;
   font-weight: 400;
 }
@@ -273,7 +365,7 @@ nav {
 }
 
 .group5 p {
-  font-style: Raleway;
+  font-family: Raleway;
   font-size: 18.75px;
   width: 760px;
   margin: 0 auto;
@@ -282,13 +374,13 @@ nav {
 
 .group5 li {
   display: inline;
-  font-style: Raleway;
+  font-family: Raleway;
   font-size: 17px;
   font-weight: 700;
   margin-right: 40px;
 }
 
-.group5 li:last {
+.group5 li:last-child {
   margin-right: 0;
 }
 
@@ -296,9 +388,10 @@ nav {
 
 .group6 {
   height: 1205px;
-  background-image: url(/images/group6.png);
-  background-size: cover;
-  font-style: "Lato";
+  background: url(/images/group6.png);
+  background-repeat: no-repeat;
+  background-size: 1205px 1400px;
+  font-family: "Lato";
   font-weight: 300;
   padding-top: 93px;
   padding-right: 125px;
@@ -373,14 +466,14 @@ footer {
 }
 
 footer h5 {
-  font-style: "Raleway";
+  font-family: "Raleway";
   font-size: 25px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 footer .about {
-  font-style: "Lato";
+  font-family: "Lato";
   font-size: 19px;
   margin-right: 165px;
   width: 430px;
