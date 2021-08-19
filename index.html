@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;800;900&family=Raleway:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;500;800;900&family=Raleway:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <!--Stylesheets-->
@@ -84,44 +84,48 @@
     </div>
 
     <div class="group4">
-      <h6>#pizzeria.</h6>
-      <h2 class="menu-header">Our New Menu</h2>
-      <!-- CSS Grid? -->
-      <div class="container">
-        <!-- Item 1 -->
-        <h5 class="menu-food-name">Eiusmod sed do</h5>
-        <p class="menu-food-description">
-          (tempor, incididunt, utas, labore, etws)
-        </p>
-        <p class="menu-price">10$</p>
-        <!-- Item 2 -->
-        <h5 class="menu-food-name">Do dolore</h5>
-        <p class="menu-food-description">(magna, aliqua, lorem)</p>
-        <p class="menu-price">14$</p>
-        <!-- Item 3 -->
-        <h5 class="menu-food-name">Eiusmod sed do</h5>
-        <p class="menu-food-description">
-          (tempor, incididunt, utas, labore, etws)
-        </p>
-        <p class="menu-price">20$</p>
-        <!-- Item 4 -->
-        <h5 class="menu-food-name">Do dolore</h5>
-        <p class="menu-food-description">(magna, aliqua, lorem)</p>
-        <p class="menu-price">10$</p>
-      </div>
+      <div id="image-bkgd" class="group4-container">
+        <h6 class="menu-logo">
+          #<span class="menu-logo-weight">pizzeria.</span>
+        </h6>
+        <div class="menu-header-box">
+          <h2 class="menu-header">Our New Menu</h2>
+        </div>
 
-      <div class="menu-legend">
-        <ul class="legend-list">
-          <li class="legend-items">||| _ top in menu</li>
-          <li class="legend-items">|| _ sale item</li>
-          <li class="legend-items">| _ made by chef</li>
-        </ul>
+        <!-- CSS Grid? -->
+        <div class="menu">
+          <div class="menu-container">
+            <!-- Item 1 -->
+            <h5 class="menu-food-name">|&nbsp;&nbsp;Eiusmod sed do</h5>
+            <p class="menu-food-description">(x)</p>
+            <p class="menu-price">10$</p>
+            <!-- Item 2 -->
+            <h5 class="menu-food-name">||&nbsp;&nbsp;Do dolore</h5>
+            <p class="menu-food-description">(x)</p>
+            <p class="menu-price">14$</p>
+            <!-- Item 3 -->
+            <h5 class="menu-food-name">|||&nbsp;&nbsp;Eiusmod sed do</h5>
+            <p class="menu-food-description">(x)</p>
+            <p class="menu-price">20$</p>
+            <!-- Item 4 -->
+            <h5 class="menu-food-name">Do dolore</h5>
+            <p class="menu-food-description">(x)</p>
+            <p class="menu-price">10$</p>
+          </div>
+          <div class="menu-legend">
+            <ul class="legend-list">
+              <li class="legend-items">||| _ top in menu</li>
+              <li class="legend-items">|| _ sale item</li>
+              <li class="legend-items">| _ made by chef</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="group5">
       <h3 class="concept-header">
-        <span class="concept-header-light">About Our</span><nbsp>&nbsp;&nbsp;
+        <span class="concept-header-light">About Our</span>&nbsp;&nbsp;
         <span class="concept-header-heavy">Concept</span>
       </h3>
       <p>
@@ -139,14 +143,16 @@
 
     <div class="group6">
       <h3 class="masterclass-header">Masterclass</h3>
-        <div class="group6-content-bkgd">
-          <h5 class="class-header">
-            | The recipe for the most delicious pizza dough |
-          </h5>
-          <p class="class-text">Waiting for you!</p>
-          <p class="class-price-time">Price_<span class="price-bold">15$</span><br>
-          12:00-15:00</p>
-        </div>
+      <div class="group6-content-bkgd">
+        <h5 class="class-header">
+          | The recipe for the most delicious pizza dough |
+        </h5>
+        <p class="class-text">Waiting for you!</p>
+        <p class="class-price-time">
+          Price_<span class="price-bold">15$</span><br />
+          12:00-15:00
+        </p>
+      </div>
       <a href="#">
         <div class="apply-btn">Apply</div>
       </a>
@@ -154,7 +160,7 @@
 
     <div class="group7">
       <h3 class="gallery-header">Gallery</h3>
-       <h6>#pizzeria.</h6>
+      <h6>#pizzeria.</h6>
       <div>
         <p class="section-text">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -180,11 +186,12 @@
       <div class="column">
         <h5>About</h5>
         <p class="about">
-          Lorem ipsum dolor sit amet, consec <br>tetur adipisicing elit, sed do eiusmod tempor<br>incididunt ultimam quantum
+          Lorem ipsum dolor sit amet, consec <br />tetur adipisicing elit, sed
+          do eiusmod tempor<br />incididunt ultimam quantum
         </p>
       </div>
 
-      <div class="column">
+      <div class="column footer-links">
         <h5>Menu</h5>
         <ul>
           <li class="footer-link">Team</li>
@@ -194,7 +201,7 @@
         </ul>
       </div>
 
-      <div class="column">
+      <div class="column footer-links">
         <h5>Chef</h5>
         <ul>
           <li class="footer-link">Team</li>
@@ -204,7 +211,7 @@
         </ul>
       </div>
 
-      <div class="column">
+      <div class="column footer-links">
         <h5>Contact</h5>
         <ul>
           <li class="footer-link">Team</li>
