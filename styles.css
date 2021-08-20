@@ -249,11 +249,12 @@ nav {
 .group3 p {
   font-family: "Lato";
   font-size: 16px;
+  line-height: 24px;
 }
 
 .feat {
   float: left;
-  width: 310px;
+  width: 305px;
   margin-right: 90px;
 }
 
@@ -297,7 +298,7 @@ nav {
 .menu {
   height: 413px;
   width: 1050px;
-  font-family: Lato;
+  font-family: "Lato";
   font-size: 33px;
   background-color: var(--yellow-accent);
   margin: 0 0 0 auto;
@@ -328,6 +329,7 @@ nav {
 /* --- MENU ITEMS --- */
 
 .menu-food-name {
+  font-size: 34px;
   font-weight: 400;
   text-transform: uppercase;
   margin: 0;
@@ -360,7 +362,7 @@ nav {
 }
 
 .legend-items {
-  font-family: Lato;
+  font-family: "Lato";
   font-size: 25px;
   padding-bottom: 16px;
 }
@@ -429,6 +431,7 @@ nav {
   font-size: 50px;
   text-align: right;
   text-transform: uppercase;
+  margin-right: 124px;
   margin-bottom: 93px;
 }
 
@@ -459,8 +462,9 @@ nav {
 
 .class-price-time {
   font-size: 42px;
-  font-weight: 300;
+  font-weight: 400;
   text-align: right;
+  text-transform: uppercase;
 }
 
 .price-bold {
@@ -506,7 +510,7 @@ nav {
   letter-spacing: 2px;
   text-align: center;
   color: var(--yellow-accent);
-  margin: 140px 0 55px;
+  padding: 140px 0 55px;
 }
 
 .gallery-list {
@@ -529,9 +533,13 @@ nav {
 
 .gallery-logo {
   font-size: 42px;
-  font-weight: 800;
+  font-weight: 400;
   text-align: center;
   margin: 96px 0 60px;
+}
+
+.gallery-logo-weight {
+  font-weight: 800;
 }
 
 /* --- CSS GRID ---*/
@@ -562,7 +570,7 @@ nav {
 /* --- GRID CONTENTS ---*/
 
 .section-text {
-  font-family: Lato;
+  font-family: "Lato";
   font-size: 25px;
   font-weight: 300;
   line-height: 42px;
@@ -574,14 +582,14 @@ nav {
 
 .social-media-find-us h5,
 .social-media-ask-us h5 {
-  font-family: Lato;
+  font-family: "Lato";
   font-size: 25px;
   font-weight: 400;
 }
 
 .social-media-ask-us a {
   color: var(--yellow-accent);
-  font-family: Lato;
+  font-family: "Lato";
   font-size: 33px;
   font-weight: 700;
   position: relative;
@@ -620,7 +628,6 @@ footer {
 footer h5 {
   font-family: "Raleway";
   font-size: 25px;
-  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -640,5 +647,9 @@ footer .about {
 }
 
 .footer-link {
+  font-weight: 700;
+  font-family: "Raleway";
+  font-size: 20px;
   width: 170px;
+  padding: 3px 0;
 }
