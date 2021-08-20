@@ -34,7 +34,7 @@ I started by using Adobe Photoshop to examine the .psd file and collect all the 
 
 # Preview
 
-( deployed link here )
+[Deployed Web Page](https://marina-russ.github.io/moody-food-pixel-perfect/)
 
 ## Design Comp
 
