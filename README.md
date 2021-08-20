@@ -42,4 +42,5 @@ I started by using Adobe Photoshop to examine the .psd file and collect all the 
 
 ### Credits
 
-The .psd design comp was created by Freepik and is being used under their Premium license.
+- The .psd design comp was created by Freepik and is being used under their Premium license.
+- Social media icons were made at iconfinder.com
