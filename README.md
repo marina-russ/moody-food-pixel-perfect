@@ -4,6 +4,10 @@
 
 Create a pixel-perfect website based off of a .psd file with no additional information from 'client'.
 
+## Web Page
+
+[Deployed Web Page](https://marina-russ.github.io/moody-food-pixel-perfect/)
+
 # Process
 
 I started by using Adobe Photoshop to examine the .psd file and collect all the relevant spec information that I needed. Before jumping straight into the HTML, I took a moment to determine semantic elements (such as which headers should be h1, h2, h3, etc) and made an initial list of classes I knew would be needed. Then I typed up all of the text for the page, adding new classes as appropriate. Before I can be distracted by visuals I loaded the HTML file and checked the text for any typos. At that point I was able to start tackling the aesthetics of the page! Because of how blocky this design is, I decided to code the CSS section-by-section. Once all the CSS was done I compared the web page to the design comp file to check for any errors.
