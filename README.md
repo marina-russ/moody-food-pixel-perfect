@@ -1,5 +1,7 @@
 # moody-food-pixel-perfect
 
+# TODO: ADD HOVER EFFECTS & LINKS
+
 # Purpose
 
 Create a pixel-perfect website based off of a .psd file with no additional information from 'client'.
