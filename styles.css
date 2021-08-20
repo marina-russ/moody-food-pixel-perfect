@@ -251,7 +251,7 @@ nav {
 .group4-container {
   height: 1202px;
   content: "";
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(20, 8, 8, 0.4), rgba(0, 0, 0, 0.4)),
     url(images/group4.png);
   width: 100%;
 }
@@ -262,7 +262,7 @@ nav {
   color: var(--yellow-accent);
   text-transform: lowercase;
   text-align: center;
-  margin: 104px 0 0 0;
+  margin: 85px 0 0 0;
 }
 
 .menu-logo-weight {
@@ -285,32 +285,37 @@ nav {
 .menu {
   height: 413px;
   width: 1050px;
+  font-family: Lato;
+  font-size: 33px;
   background-color: var(--yellow-accent);
   margin: 0 0 0 auto;
 }
 
+/* --- CSS GRID --- */
+
 .menu-container {
-  padding-left: 40px;
+  display: grid;
+  grid-template-columns: auto 110px;
+  grid-template-rows: 122px 122px 122px 100px;
+  margin: 60px 250px 0 40px;
 }
 
+/* ---------------- */
+
 .menu-food-name {
-  font-family: Lato;
-  font-size: 33px;
   font-weight: 400;
   text-transform: uppercase;
   margin: 0;
 }
 
 .menu-food-description {
-  font-family: Lato;
-  font-size: 33px;
   margin: 0;
 }
 
 .menu-price {
-  font-family: Lato;
-  font-weight: 700;
-  font-size: 33px;
+  font-weight: 900;
+  padding: 0;
+  margin-top: 5px;
 }
 
 .menu-legend {
@@ -324,20 +329,13 @@ nav {
 
 .legend-list {
   padding-left: 180px;
+  margin: 17px 0;
 }
 
 .legend-items {
   font-family: Lato;
   font-size: 25px;
   padding-bottom: 16px;
-}
-
-/* --- CSS GRID --- */
-
-.menu-container {
-  display: grid;
-  grid-template-columns: auto 115px 250px;
-  grid-template-rows: repeat(4fr);
 }
 
 /* ========= GROUP 5 ========= */
