@@ -302,10 +302,6 @@ nav {
 /* --- ACCENT BAR --- */
 
 .menu-price-box {
-  /* background: var(--yellow-highlight);*/
-  background-repeat: no-repeat;
-  background-size: 75%;
-
   background: linear-gradient(
     to right,
     rgba(255, 218, 0, 0) 18%,
@@ -405,10 +401,13 @@ nav {
   height: 1205px;
   background: url(/images/group6.png);
   background-repeat: no-repeat;
-  background-size: 1205px 1400px;
+  background-size: 100%;
   font-family: "Lato";
   font-weight: 300;
   padding-top: 93px;
+}
+
+.group6-content {
   padding-right: 125px;
 }
 
@@ -472,6 +471,41 @@ nav {
 /* ========= GROUP 7 ========= */
 
 /* TODO: SECTION*/
+
+.group7 {
+  height: 1260px;
+  background: linear-gradient(
+    to right,
+    rgba(255, 171, 0, 0) 20%,
+    rgba(255, 171, 0, 1) 20%,
+    rgba(255, 171, 0, 1) 38%,
+    rgba(255, 171, 0, 0) 38%
+  );
+}
+
+<div class="group7">
+      <h3 class="gallery-header">Gallery</h3>
+      <h6>#pizzeria.</h6>
+      <div>
+        <p class="section-text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis.
+        </p>
+      </div>
+      <div class="social-media">
+        <h5>| find us here</h5>
+        <ul>
+          <li class="social-icons"></li>
+          <li class="social-icons"></li>
+          <li class="social-icons"></li>
+          <li class="social-icons"></li>
+        </ul>
+        <h5>| ask us here</h5>
+        <a href="">www.#pizzeria.com</a>
+      </div>
+      <p>Name Name</p>
+    </div>*/
 
 /* ========= FOOTER ========= */
 
