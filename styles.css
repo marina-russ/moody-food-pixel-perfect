@@ -176,25 +176,26 @@ nav {
 .group2-content {
   height: 444px;
   margin-left: 130px;
-  border: 1px solid green;
 }
 
 .group2-decorative-header {
   font-family: "Montserrat";
   font-weight: 300;
   font-size: 50px;
-  letter-spacing: 8px;
+  letter-spacing: 4px;
   text-transform: lowercase;
   margin-bottom: 0;
   float: left;
   transform: rotate(270deg);
+  position: relative;
+  bottom: -135px;
+  left: 30px;
 }
 
 .group2-text {
   font-family: "Lato";
   font-weight: 300;
   margin-top: 60px;
-  margin-left: 135px;
   padding-left: 150px;
   padding-right: 40px;
   width: 840px;
