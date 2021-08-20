@@ -5,10 +5,7 @@
   --footer-brown: #483500;
 }
 /*
-font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Raleway', sans-serif;
-
+FONT WEIGHTS:
 Montserrat: Light 300 / Regular 400 / ExtraBold 800 / Black 900
 Lato: Regular 400 -> now 300 / Bold 700 -> now 400 / Black 900 --> now 700
 NOTE: {Lato Bold replaces Lato Medium which was not available on Google Fonts}
@@ -483,29 +480,118 @@ nav {
   );
 }
 
-<div class="group7">
-      <h3 class="gallery-header">Gallery</h3>
-      <h6>#pizzeria.</h6>
-      <div>
-        <p class="section-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis.
-        </p>
-      </div>
-      <div class="social-media">
-        <h5>| find us here</h5>
-        <ul>
-          <li class="social-icons"></li>
-          <li class="social-icons"></li>
-          <li class="social-icons"></li>
-          <li class="social-icons"></li>
-        </ul>
-        <h5>| ask us here</h5>
-        <a href="">www.#pizzeria.com</a>
-      </div>
-      <p>Name Name</p>
-    </div>*/
+/* --- GALLERY ---*/
+
+.gallery-header {
+  font-size: 42px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  color: var(--yellow-accent);
+  margin: 140px 0 55px;
+}
+
+.gallery-list {
+  padding: 0;
+  margin: 0;
+}
+
+.gallery-items {
+  display: inline;
+}
+
+.gallery-pic {
+  height: 475px;
+  padding-right: 4px;
+}
+
+.last-item {
+  padding-right: 0;
+}
+
+.gallery-logo {
+  font-size: 42px;
+  font-weight: 800;
+  text-align: center;
+  margin: 96px 0 60px;
+}
+
+/* --- CSS GRID ---*/
+.social-css-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  margin-left: 286px;
+  margin-right: 300px;
+}
+
+.contact-us {
+  grid-row: 1 / 3;
+}
+
+.social-media-find-us {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  padding: 5px 0 20px 115px;
+}
+
+.social-media-ask-us {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  padding-left: 115px;
+}
+
+/* --- GRID CONTENTS ---*/
+
+.section-text {
+  font-family: Lato;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 42px;
+  width: 340px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 76px;
+}
+
+.social-media-find-us h5,
+.social-media-ask-us h5 {
+  font-family: Lato;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.social-media-ask-us a {
+  color: var(--yellow-accent);
+  font-family: Lato;
+  font-size: 33px;
+  font-weight: 700;
+  position: relative;
+  left: -20px;
+}
+
+.social-icon-list {
+  padding: 0;
+  margin-top: 16px;
+}
+
+.social-icon-li {
+  display: inline;
+}
+
+.social-icon img {
+  height: 55px;
+  width: 55px;
+  color: #fff;
+}
+
+.owner-name {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 0 608px;
+}
 
 /* ========= FOOTER ========= */
 
@@ -532,11 +618,10 @@ footer .about {
   float: left;
 }
 
-.footer-link {
-  width: 170px;
+.footer-list {
+  padding: 0;
 }
 
-.footer ul {
-  padding: 0;
-  padding-inline-start: 0;
+.footer-link {
+  width: 170px;
 }
