@@ -269,7 +269,7 @@ nav {
   height: 1202px;
   content: "";
   background-image: linear-gradient(rgba(20, 8, 8, 0.4), rgba(0, 0, 0, 0.4)),
-    url(images/group4.png);
+    url("images/group4.png");
   width: 100%;
 }
 
@@ -420,7 +420,7 @@ nav {
 
 .group6 {
   height: 1205px;
-  background: url(/images/group6.png);
+  background: url("images/group6.png");
   background-repeat: no-repeat;
   background-size: 100%;
   font-family: "Lato";
