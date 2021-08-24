@@ -215,6 +215,8 @@ nav {
   font-size: 42px;
   font-weight: 900;
   letter-spacing: 5px;
+  position: relative;
+  left: -50px;
 }
 
 .group2-text p {
@@ -623,6 +625,12 @@ nav {
 footer {
   background-color: var(--footer-brown);
   padding: 60px 170px 70px;
+}
+
+.footer-content {
+  width: 1440px;
+  margin: 0 auto;
+  padding-left: 190px;
 }
 
 footer h5 {
