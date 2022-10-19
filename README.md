@@ -4,7 +4,7 @@
 2. [Live Page](#webpage)
 3. [Process](#process)
 4. [Challenges](#challenges)
-5. [Design Comp](#designcomp)
+5. [Design Comp File](#designcomp)
 
 # ⭐ Purpose <a name="purpose"></a>
 
@@ -46,7 +46,7 @@ Another tricky part of the design was in the "Our New Menu" section with the par
 
 I added some `:hover` effects to the nav bar, and would like to add them to the rest of the links and buttons on the page to help indicate to the user which parts of the page are interactable.
 
-# 🎨 Design Comp <a name="designcomp"></a>
+# 🎨 Design Comp File <a name="designcomp"></a>
 
 The .psd file is larger than GitHub will allow. 
 
